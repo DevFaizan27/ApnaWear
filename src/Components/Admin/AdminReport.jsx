@@ -66,7 +66,7 @@ const AdminReport = () => {
 
   const data = [
     { name: 'Total Users', value: userCount },
-    { name: 'Total Orders', value: orderCount },
+    { name: 'Total Pending Orders', value: orderCount },
     { name: 'Total Items', value: items.length },
     { name: 'Total Sales in (k)', value: totalSales },
 
