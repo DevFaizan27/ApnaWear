@@ -31,6 +31,9 @@ const AdminNavbar = () => {
   const deliveredItems = () => {
     navigate('/admin/deliveredItems');
   };
+  const shoeUsers = () => {
+    navigate('/admin/showUsers');
+  };
 
   const handleLogout = async () => {
     dispatch(clearUser());
@@ -64,6 +67,9 @@ const AdminNavbar = () => {
             <button className="p-2 text-white focus:outline-none focus:ring-2  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={showAddedItem}>
               Show Added Item
             </button>
+            <button className="p-2 text-white focus:outline-none focus:ring-2  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={shoeUsers}>
+              Show Users
+            </button>
             <button className="p-2 text-white focus:outline-none focus:ring-2  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={handleAddItem}>
               Add item
             </button>
@@ -87,6 +93,9 @@ const AdminNavbar = () => {
               <button className="p-2 text-white focus:outline-none focus:ring-4  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={showAddedItem}>
                 Show Added Item
               </button>
+              <button className="p-2 text-white focus:outline-none focus:ring-2  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={showAddedItem}>
+              Show Uses
+            </button>
               <button className="p-2 text-white focus:outline-none focus:ring-4  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={handleAddItem}>
                 Add item
               </button>

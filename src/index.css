@@ -25,3 +25,25 @@ body {
   }
 
   
+/* Custom CSS Styles */
+.small-div-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align the container to the top of the page */
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+.modal {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Add other styles for the modal content as needed */
