@@ -90,19 +90,19 @@ const AdminNavbar = () => {
               <button onClick={handleHome}>
                 <FiHome color="white" />
               </button>
-              <button className="p-2 text-white focus:outline-none focus:ring-4  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={showAddedItem}>
+              <button className="p-3 text-white focus:outline-none focus:ring-4  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={showAddedItem}>
                 Show Added Item
               </button>
-              <button className="p-2 text-white focus:outline-none focus:ring-2  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={showAddedItem}>
-              Show Uses
+              <button className="p-3 text-white focus:outline-none focus:ring-2  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={showAddedItem}>
+              Show Users
             </button>
-              <button className="p-2 text-white focus:outline-none focus:ring-4  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={handleAddItem}>
+              <button className="p-3 text-white focus:outline-none focus:ring-4  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={handleAddItem}>
                 Add item
               </button>
-              <button className="p-2 text-white focus:outline-none focus:ring-2  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={showOrderDetails}>
+              <button className="p-3 text-white focus:outline-none focus:ring-2  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={showOrderDetails}>
                 Show Orders
               </button>
-              <button className="p-2 text-white focus:outline-none focus:ring-2  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={deliveredItems}>
+              <button className="p-3 text-white focus:outline-none focus:ring-2  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={deliveredItems}>
                 Delivered Orders
               </button>
               <button className=" text-white focus:ring-4  font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 hover:bg-gray-700 focus:outline-none focus:ring-gray-800" onClick={handleLogout}>
