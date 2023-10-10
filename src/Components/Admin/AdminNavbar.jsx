@@ -31,7 +31,7 @@ const AdminNavbar = () => {
   const deliveredItems = () => {
     navigate('/admin/deliveredItems');
   };
-  const shoeUsers = () => {
+  const showUsers = () => {
     navigate('/admin/showUsers');
   };
 
@@ -67,7 +67,7 @@ const AdminNavbar = () => {
             <button className="p-2 text-white focus:outline-none focus:ring-2  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={showAddedItem}>
               Show Added Item
             </button>
-            <button className="p-2 text-white focus:outline-none focus:ring-2  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={shoeUsers}>
+            <button className="p-2 text-white focus:outline-none focus:ring-2  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={showUsers}>
               Show Users
             </button>
             <button className="p-2 text-white focus:outline-none focus:ring-2  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={handleAddItem}>
@@ -93,7 +93,7 @@ const AdminNavbar = () => {
               <button className="p-3 text-white focus:outline-none focus:ring-4  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={showAddedItem}>
                 Show Added Item
               </button>
-              <button className="p-3 text-white focus:outline-none focus:ring-2  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={showAddedItem}>
+              <button className="p-3 text-white focus:outline-none focus:ring-2  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={showUsers}>
               Show Users
             </button>
               <button className="p-3 text-white focus:outline-none focus:ring-4  font-medium rounded-lg text-sm  bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700" onClick={handleAddItem}>
