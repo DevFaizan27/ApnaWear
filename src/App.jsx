@@ -16,6 +16,7 @@ import SearchItem from './Components/User/SearchItem'
 import UserOrder from './Components/User/UserOrder'
 import Delivered from './Components/Admin/Delivered'
 import DeliveredOrder from './Components/User/DeliveredOrder'
+import UsersData from './Components/Admin/UsersData'
 
 
 
@@ -52,6 +53,14 @@ const App = () => {
         element={
           <ProtectedRoute role="admin">
             <GetItemAdmin/>
+          </ProtectedRoute>
+        }
+      />
+         <Route
+        path="/admin/showUsers"
+        element={
+          <ProtectedRoute role="admin">
+            <UsersData/>
           </ProtectedRoute>
         }
       />
