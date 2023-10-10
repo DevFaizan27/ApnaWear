@@ -6,7 +6,6 @@ const Carousel = () => {
       'http://www.norwegianfashion.net/slide_images/1486377558_slider.jpg',
       'https://www.stylior.com/site/images/home/slider_2.jpg',
       'https://www.jssor.com/premium/fashion/img/plaza.jpg',
-      'https://www.jssor.com/premium/fashion/img/attitude.jpg'
     // Add more image URLs as needed
   ];
 
