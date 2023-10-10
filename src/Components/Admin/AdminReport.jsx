@@ -73,19 +73,24 @@ const AdminReport = () => {
   ];
 
   return (
-    <div className="bg-dark-theme h-screen flex flex-col  mt-2 items-center">
-      <h2 className="text-2xl font-semibold mb-4 text-white">Report</h2>
-      <div className="bg-gray-300 dark:bg-gray-800 p-4 rounded-lg shadow-lg">
-        <BarChart width={600} height={400} data={data}>
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" />
-          <YAxis />
-          <Tooltip />
-          <Legend />
-          <Bar dataKey="value" fill="#8884d8" />
-        </BarChart>
-      </div>
-    </div>
+    <div className="bg-dark-theme h-screen flex flex-col mt-2 items-center">
+  <h2 className="text-2xl font-semibold mb-4 text-white">Report</h2>
+  <div className="bg-gray-300 dark:bg-gray-800 p-4 rounded-lg shadow-lg">
+    <BarChart
+      width={window.innerWidth < 768 ? 300 : 600} // Adjust the width based on the screen width
+      height={400}
+      data={data}
+    >
+      <CartesianGrid strokeDasharray="3 3" />
+      <XAxis dataKey="name" />
+      <YAxis />
+      <Tooltip />
+      <Legend />
+      <Bar dataKey="value" fill="#8884d8" />
+    </BarChart>
+  </div>
+</div>
+
   )
 }
 
